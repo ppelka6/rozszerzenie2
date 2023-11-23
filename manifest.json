@@ -1,0 +1,17 @@
+{
+    "name" : "Informacje o lotnisku",
+    "version" : "1.0",
+    "manifest_version" : 2,
+    "description" : " Informacje o amerykańskich lotniskach.",
+    "browser_action" : {
+        "default_icon" : "fly.png",
+        "default_popup" : "popup.html"
+    },
+    "web_accessible_resources" : [
+        "fly.png",
+        "popup.js"
+    ],
+    "permissions": [
+        "http://services.faa.gov/"
+    ]
+}
